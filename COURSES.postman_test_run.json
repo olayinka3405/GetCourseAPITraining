@@ -1,0 +1,227 @@
+{
+	"id": "2a93c123-fa83-488c-a7cd-9a7d61523078",
+	"name": "COURSES",
+	"timestamp": "2022-11-19T09:41:33.111Z",
+	"collection_id": "23092539-8348adbf-cf57-4d2d-b7a1-dd879e2688b0",
+	"folder_id": 0,
+	"environment_id": "23092539-a52c2d6b-5ce3-422b-8e03-b54b297db9ce",
+	"totalPass": 14,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "e7be283b-8f4c-44ed-ac72-e01a7fff5ba2",
+			"name": "CREATE COURSE",
+			"url": "https://notification-service.ishchoolapi.xyz/api/courses/",
+			"time": 63,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"validate status code is 200": true,
+				"validate status code name has string": true,
+				"validate response time is less than 200ms": true,
+				"Validate headers Content-Type is present": true,
+				"Response body": true
+			},
+			"testPassFailCounts": {
+				"validate status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"validate status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"validate response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validate headers Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response body": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				63
+			],
+			"allTests": [
+				{
+					"validate status code is 200": true,
+					"validate status code name has string": true,
+					"validate response time is less than 200ms": true,
+					"Validate headers Content-Type is present": true,
+					"Response body": true
+				}
+			]
+		},
+		{
+			"id": "7806f5a9-e221-4852-8e68-abf2f8629f5a",
+			"name": "LIST COURSES",
+			"url": "https://notification-service.ishchoolapi.xyz/api/courses/",
+			"time": 50,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				50
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "316490f8-c861-4bb2-9c02-040ef2473c4b",
+			"name": "UPDATE COURSE",
+			"url": "https://notification-service.ishchoolapi.xyz/api/courses/1980",
+			"time": 43,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true,
+				"Resonse body": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Resonse body": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				43
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true,
+					"Resonse body": true
+				}
+			]
+		},
+		{
+			"id": "7f24ef61-b5d0-4373-8d9e-5b4e4abdafe3",
+			"name": "DELETE COURSE",
+			"url": "https://notification-service.ishchoolapi.xyz/api/courses/1980",
+			"time": 46,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				46
+			],
+			"allTests": [
+				{
+					"Status code is 204": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "bfcd8838-17b5-4217-b3a2-6d95d2b7bd4e",
+			"name": "GET COURSE",
+			"url": "https://notification-service.ishchoolapi.xyz/api/courses/1980",
+			"time": 40,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				40
+			],
+			"allTests": [
+				{
+					"Status code is 404": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 242,
+	"collection": {
+		"requests": [
+			{
+				"id": "e7be283b-8f4c-44ed-ac72-e01a7fff5ba2",
+				"method": "POST"
+			},
+			{
+				"id": "7806f5a9-e221-4852-8e68-abf2f8629f5a",
+				"method": "GET"
+			},
+			{
+				"id": "316490f8-c861-4bb2-9c02-040ef2473c4b",
+				"method": "PUT"
+			},
+			{
+				"id": "7f24ef61-b5d0-4373-8d9e-5b4e4abdafe3",
+				"method": "DELETE"
+			},
+			{
+				"id": "bfcd8838-17b5-4217-b3a2-6d95d2b7bd4e",
+				"method": "GET"
+			}
+		]
+	}
+}
